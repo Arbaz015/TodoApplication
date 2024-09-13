@@ -1,4 +1,6 @@
 package com.example.todoapplication;
 
-public class AboutActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class AboutActivity extends AppCompatActivity {
 }
