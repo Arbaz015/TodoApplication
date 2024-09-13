@@ -53,10 +53,12 @@ public class MainActivity extends AppCompatActivity implements OnTodoClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar= findViewById(R.id.toolbar);
         counter=0;
         recyclerView=findViewById(R.id.recycler_view);
         bottomSheetFragment= new BottomSheetFragment();
+        setSupportActionBar(toolbar);
         ConstraintLayout constraintLayout= findViewById(R.id.bottomSheet);
 
 
